@@ -41,9 +41,11 @@ header .gnb li a {color: var(--titColor1); padding: 0 20px;}
 #myinfo .resume .picture figure {position: relative; width: 280px; height: 290px; overflow: hidden; border-radius: 20px 90px 90px 20px;}
 #myinfo .resume .picture img {width: 120%; position: absolute; top: 50%; left: 50%; transform: translate(-40%,-60%);}
 
-#myinfo .resume .picture .info { width: 280px;display: flex; flex-wrap: wrap; margin-top: 30px; font-family: 'nanumsquare'; font-weight: lighter; letter-spacing: 0.2em;}
-#myinfo .resume .picture .info li {width: 40%; height: 30px;color: #fff; font-size: 20px;}
+#myinfo .resume .picture .info {width: 340px;display: flex; flex-wrap: wrap; margin-top: 30px; font-family: 'nanumsquare'; font-weight: lighter; letter-spacing: 0.2em;}
+#myinfo .resume .picture .info li {width: 25%; height: 30px;color: #fff; font-size: 20px;}
 #myinfo .resume .picture .info li.title {color: #eae3d1;}
+#myinfo .resume .picture .info li.ment{width: 400px; height: 100px;}
+#myinfo .resume .picture .info li.ment strong {color: #eae3d1;}
 
 #myinfo .text_box {letter-spacing: 0.1em; position: relative;}
 #myinfo .text_box::before {content: ""; position: absolute; width: 24px; height: 1px; background:var(--borColor); left: -11px; top: 54%;}
